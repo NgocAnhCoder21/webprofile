@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hồ Sơ Cá Nhân</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#about">Giới Thiệu</a></li>
+      <li><a href="#skills">Kỹ Năng</a></li>
+      <li><a href="#projects">Dự Án</a></li>
+      <li><a href="#education">Học Vấn</a></li>
+      <li><a href="#contact">Liên Hệ</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <div class="profile-box">
+      <img src="images/avatar.jpg" alt="Ảnh đại diện" class="avatar" />
+      <h1>Đoàn Ngọc Ánh</h1>
+      <p>Frontend Developer | UI/UX Enthusiast</p>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>Giới Thiệu</h2>
+    <div class="section-box">
+      <div class="about-container">
+        <div class="about-text">
+          <p>
+            Tôi là một lập trình viên Frontend với đam mê mãnh liệt trong việc xây dựng giao diện tinh tế và tương tác mượt mà.  
+            Với tư duy thẩm mỹ và tư duy logic, tôi luôn hướng tới việc tạo ra trải nghiệm người dùng đơn giản nhưng hiệu quả.  
+            Sự kết hợp giữa thiết kế và công nghệ chính là điều khiến tôi yêu công việc này mỗi ngày.
+          </p>
+        </div>
+        <img src="images/about.jpg" alt="Ảnh giới thiệu" class="about-image" />
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="skills">
+    <h2>Kỹ Năng</h2>
+    <div class="section-box">
+      <ul class="skill-list">
+        <li><strong>Ngôn ngữ:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Framework:</strong> React, Vue</li>
+        <li><strong>Thiết kế:</strong> Figma, Adobe XD</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <h2>Dự Án</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Một trang web cá nhân để giới thiệu kỹ năng và dự án.</p>
+      <img src="images/project1.jpg" alt="Ảnh dự án 1" class="project-image" />
+    </div>
+    <div class="project">
+      <h3>Ứng dụng To‑do</h3>
+      <p>Ứng dụng quản lý công việc với React và LocalStorage.</p>
+      <img src="images/project2.jpg" alt="Ảnh dự án 2" class="project-image" />
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Học Vấn</h2>
+    <div class="education-card hidden">
+      <h3>2023 – 2027</h3>
+      <p><strong>Cử nhân Công nghệ Thông tin</strong><br>
+      Đại học Nguyễn Tất Thành – GPA: 3.2 / 4.0</p>
+    </div>
+    <div class="education-card hidden">
+      <h3>2025</h3>
+      <p><strong>Chứng chỉ UX Design</strong><br>
+      Google UX Design – Coursera</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Liên Hệ</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Họ và tên" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Tin nhắn" required></textarea>
+      <button type="submit">Gửi</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Đoàn Ngọc Ánh</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
